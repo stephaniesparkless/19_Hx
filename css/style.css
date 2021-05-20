@@ -1,0 +1,280 @@
+.flexContainer {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.firstGrpDivs {
+    width: 33%;
+   
+    padding: 50px;
+    margin: 100px;
+    text-align: center;
+}
+
+h1, h3 {
+    display:flex;
+    justify-content: center;
+}
+.workGrid {
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.secondGrpDivs{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    width: 35%;
+    margin-bottom: 70px;
+}
+
+
+.description {
+    width: 65%;
+    margin-right: 100px;
+    background-color: rgb(211, 211, 211);
+    padding: 50px;
+    margin-bottom: 70px;
+
+}
+p{
+    text-align: left;
+    
+}
+
+
+
+    
+ /* This removes any preset margins and padding. */
+
+
+  
+/***************** Import fonts *****************/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/***************** Typography *****************/
+p{
+    font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+}
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 54px;
+    font-weight: bold;
+}
+
+/***************** Header *****************/
+
+img#logo{
+    width: 100px;
+    padding: 15px;
+}
+
+.logocontainer{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 10px;
+}
+
+.aboutlinks{
+    display: inline-block;
+
+}
+
+nav ul li{
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header{
+    margin-bottom: 40px;
+}
+div.logocontainer{
+    margin-left: 10px;
+}
+
+
+
+/***************** Section to Intro *****************/
+
+.intro {
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+/***************** Home Page Case Study Section *****************/
+
+img{
+    max-width: 100%;
+}
+
+.caseStudyBackground{
+    width: 80%;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e4e4e4;
+    padding-left: 60px;
+
+
+}
+
+.csBackgroundLeft {
+    background: linear-gradient(to right, #7bb1a4 0%, #7bb1a4 50%,#000000 50%,white 50%, white 100%);
+    padding: 50px 0;
+    margin: 40px 0;
+
+}
+
+.csBackgroundRight {
+    background: linear-gradient(to left, #37816F 0%, #37816F 50%,#000000 50%,white 50%, white 100%);
+    padding: 50px 0;
+    margin: 40px 0;
+
+}
+
+
+ /* Animation Stuff */
+
+button{
+    background-color: #e6d07f;
+    border: #e6d07f;
+    padding: 10px;
+}
+
+.thirdCs{
+    display: none;
+}
+
+#firstB{
+    transition: background-color 0.5s ease;
+}
+
+#firstB:hover{
+    background-color: #d8b948;
+}
+#secondB{
+    transition: background-color 0.5s ease;
+}
+
+#secondB:hover{
+    background-color: #d8b948;
+}
+#thirdB{
+    transition: background-color 0.5s ease;
+}
+
+#thirdB:hover{
+    background-color: #d8b948;
+}
+
+#clickMe{
+    transition: background-color 0.5s ease;
+
+}
+#clickMe:hover{
+    color: #d8b948;
+}
+
+.flexfirst{
+    transform: scale(1);
+    transition: all .5s ease;
+}
+
+.flexfirst:hover{
+    transform: scale(1.05);
+}
+
+.flexsecond{
+    transform: scale(1);
+    transition: all .5s ease;
+}
+
+.flexsecond:hover{
+    transform: scale(1.05);
+}
+
+.flexthird{
+    transform: scale(1);
+    transition: all .5s ease;
+}
+
+.flexthird:hover{
+    transform: scale(1.05);
+}
+/***************** Footer *****************/
+
+footer{
+    background: #393939;
+
+}
+.footerText{
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+
+/*******************Responsive Stuff*******************/
+
+@media screen and (max-width:800px){
+    .flexContainer{
+        display: flex;
+        flex-direction: column;
+        margin:0px;
+        padding: 0px;
+    }
+
+    .firstGrpDivs {
+        width: 100%;
+        padding: 20px;
+        margin: 20px;
+        justify-content: center;
+    }
+    .secondGrpDivs{
+        display: flex;
+        align-content: center; 
+        margin: 0px;
+        width: 100%;
+        margin-bottom: 0px;
+    }
+    
+    .description {
+        width: 100%;
+        margin: 0px;
+        background-color: rgb(211, 211, 211);
+        padding: 50px;
+        margin-bottom: 10px;
+    
+    }
+
+}
+@media screen and (max-width:1190px){
+    .firstGrpDivs {
+        width: 100%;
+        padding: 10px;
+        margin: 0px;
+        justify-content: center;
+    }
+
+}
