@@ -1,0 +1,6 @@
+.jumbotron{
+    background-image: url("../images/hero.png");
+    position: relative;
+    width: 100%;
+    height:auto;
+}
