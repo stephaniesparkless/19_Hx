@@ -11,3 +11,10 @@
   }
   .nav-item{
     margin: 0px 15px;
+  }
+
+.card{
+    display: flex;
+    
+    margin:0px 15px;
+}
