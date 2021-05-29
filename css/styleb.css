@@ -4,10 +4,12 @@
 .navbar-nav{
     margin-left: auto;
     margin-right: 0 !important;
+    
   }
   .navbar-brand img{
     padding-right: 15px;
     width: 65px;
+   
   }
   .nav-item{
     margin: 0px 15px;
@@ -17,4 +19,50 @@
     display: flex;
     
     margin:0px 15px;
+}
+
+/* Custom Card Styles */
+
+.content {
+    padding: 50px;
+  
+  }
+  .sectionHeading{
+    text-align: left;
+    padding-bottom: 10px;
+    padding-top: 70px;
+    
+  }
+
+
+  #headingId{
+    text-align: left;
+    padding-bottom: 10px;
+    padding-left: 48px;
+  }
+  #headingIdAlone{
+    text-align: left;
+    padding-bottom: 10px;
+    padding-left: 10px;
+  }
+  .showsNear {
+    padding: 0px 30px 30px 30px;
+  }
+  .cardContainer{
+    text-align: center;
+  }
+  
+  .card-text{
+      text-align: left;
+  }
+
+
+  .jumbotron{
+      padding-left: 100px;
+      padding-right: 100px;
+      padding-top: 50px;
+  }
+
+.card-title{
+    padding-top: 50px;
 }
